@@ -1,5 +1,5 @@
 ORG 0x7c00 ;Assembly origin--so that assembler kns how to offset our data
-;ideally orgin must be 0 but we jump to 0x7c00
+;ideally orgin must be 0 but we jump to 0x7c00-----sets offset as 0
 BITS 16 ; will ensure that assembler will only assemble assembly instructions in 16 biy register
 
 start:
