@@ -12,8 +12,8 @@ processor is interrupted    | Content Cell
 old state saved on stack    | Content Cell
 interrupt executed          | Content Cell
 
-First Header  | Second Header
-------------- | -------------
+When we invoke an interrupt  | Second Header
+-----------------------------| -------------
 Content Cell  | Content Cell
 Content Cell  | Content Cell
 
