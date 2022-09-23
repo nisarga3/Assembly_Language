@@ -26,3 +26,6 @@ Interrupt vector table
 interrupts 0=adress 0x00
 interrupts 1=adress 0x04
 interrupts 2=adress 0x08
+
+osdev exceptions--google
+ralf browns interrupt list---interrupt  13

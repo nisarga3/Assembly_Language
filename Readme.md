@@ -26,3 +26,26 @@ copy binary to the disk
 ```
 sudo dd if=./boot.bin of=/dev/sdb
 ```
+
+Make a Makefile
+
+#To read the bin file
+```
+sudo apt install bless
+bless ./boot_read.bin
+```
+
+
+
+#Global file descriptor
+```
+sudo apt install gdb
+target remote | qemu-system-  -hda ./pro.bin -S -gdb stdio
+c
+type ctrl+C  sigint
+layout asm
+info register
+```
+
+Restructure the project
+Enable A20 line
