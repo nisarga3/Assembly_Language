@@ -2,21 +2,11 @@
 
 They are like subroutines, but we dont need to know the memory address to invoke them
 
-when we invoke an interrupt
-processor is interrupted
-old state svaed on stack
-interrupt executed
-when we invoke an interrupt |
-------------- --------------| -------------
-processor is interrupted    | Content Cell
-old state saved on stack    | Content Cell
-interrupt executed          | Content Cell
-
-When we invoke an interrupt  | Second Header
------------------------------| -------------
-processor is interrupted     | Content Cell
-old state saved on stack     | Content Cell
-interrupt executed           | Content Cell
+When we invoke an interrupt  |
+-----------------------------|
+processor is interrupted     | 
+old state saved on stack     | 
+interrupt executed           |
 
 
 Interrupt vector table 
