@@ -1,4 +1,4 @@
-### Interupts
+## Interupts
 
 They are like subroutines, but we dont need to know the memory address to invoke them
 
@@ -6,6 +6,11 @@ when we invoke an interrupt
 processor is interrupted
 old state svaed on stack
 interrupt executed
+when we invoke an interrupt |
+------------- --------------| -------------
+processor is interrupted    | Content Cell
+old state saved on stack    | Content Cell
+interrupt executed          | Content Cell
 
 Interrupt vector table 
 -table describing 256 interrupt handlers
