@@ -29,7 +29,7 @@ sudo dd if=./boot.bin of=/dev/sdb
 
 Make a Makefile
 
-#To read the bin file
+## To read the bin file
 ```
 sudo apt install bless
 bless ./boot_read.bin
@@ -37,7 +37,7 @@ bless ./boot_read.bin
 
 
 
-#Global file descriptor
+## Global file descriptor
 ```
 sudo apt install gdb
 target remote | qemu-system-  -hda ./pro.bin -S -gdb stdio
