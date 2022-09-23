@@ -14,8 +14,10 @@ interrupt executed          | Content Cell
 
 When we invoke an interrupt  | Second Header
 -----------------------------| -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+processor is interrupted     | Content Cell
+old state saved on stack     | Content Cell
+interrupt executed           | Content Cell
+
 
 Interrupt vector table 
 -table describing 256 interrupt handlers
