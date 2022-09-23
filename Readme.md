@@ -15,3 +15,14 @@ ndisasm ./boot.bin
 ```
 qemu-system-x86_64 -hda ./boot.bin
 ```
+## To load to usb stick
+
+show all disks in the system
+```
+sudo fdisk -l
+
+```
+copy binary to the disk
+```
+sudo dd if=./boot.bin of=/dev/sdb
+```
