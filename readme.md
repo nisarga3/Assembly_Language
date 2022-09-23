@@ -1,4 +1,4 @@
-## Interupts
+## Interrupts
 
 They are like subroutines, but we dont need to know the memory address to invoke them
 
