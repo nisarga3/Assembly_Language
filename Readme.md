@@ -29,7 +29,7 @@ sudo dd if=./boot.bin of=/dev/sdb
 
 Make a Makefile
 
-#To read the bin file
+## To read the bin file
 ```
 sudo apt install bless
 bless ./boot_read.bin
@@ -37,7 +37,7 @@ bless ./boot_read.bin
 
 
 
-#Global file descriptor
+## Global file descriptor
 ```
 sudo apt install gdb
 target remote | qemu-system-  -hda ./pro.bin -S -gdb stdio
@@ -49,3 +49,11 @@ info register
 
 Restructure the project
 Enable A20 line
+## To run on online emulator
+```$ make       ```                                                              //to compile and make an executable
+```$ cd bin     ```                                                            //to switch to binary file and operate on gdb
+
+```$ target remote | qemu-system-x86_64 -hda ./boot.bin -S gdb stdio  ```       //to run onthe emulator
+prompt to continue appears
+press c
+```$ layout asm       ```                                                       //to view how values are stored on the memory
