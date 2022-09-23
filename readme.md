@@ -12,6 +12,11 @@ processor is interrupted    | Content Cell
 old state saved on stack    | Content Cell
 interrupt executed          | Content Cell
 
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
 Interrupt vector table 
 -table describing 256 interrupt handlers
 -entries contain 4 bytes (offset-segemnt)
